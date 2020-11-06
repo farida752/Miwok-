@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF7DA"
+
+    >
+
+    <TextView
+        android:id="@+id/textview_miwok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4A312A"
+        android:paddingLeft="16dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="25dp"
+        android:text="Miwok"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="30dp"
+        android:text="Numbers"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="#FD8E09"
+        android:id="@+id/textview_numbers"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="30dp"
+        android:text="Family Members"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="#379237"
+        android:id="@+id/textview_familyMembers"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="30dp"
+        android:text="Colors"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="#8800A0"
+        android:id="@+id/textview_colors"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="30dp"
+        android:text="Phrases"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="#16AFCA"
+        android:id="@+id/textview_phrases"
+        />
+
+
+
+</LinearLayout>
